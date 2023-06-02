@@ -1,7 +1,7 @@
 
-exercicio 1:
 
 #include <stdio.h>
+
 
 // 1) Faça uma função que retorne 1 se o número passado como argumento for positivo e -1 se for negativo e 0
 se for ZERO. Protótipo:
@@ -28,7 +28,6 @@ int main() {
 
 exercicio 2
 
-#include <stdio.h>
 
 // 2) Faça uma função que receba dois números inteiros e retorne a soma dos números inteiros existentes
 entre eles. Por exemplo: Para os valores de entrada 2 e 10, a soma será 3+4+5+6+7+8+9.
@@ -62,7 +61,6 @@ int main() {
 
 exercicio3
 
-#include <stdio.h>
 
 // 3) Faça uma função que receba três números inteiros: a, b e c, onde a>1; e retorne a soma de todos os
 números inteiros de b até c que sejam divisíveis por a. Exemplo: Para os valores de entrada 2 (para a), 5
@@ -99,7 +97,6 @@ int main() {
 
 exercicio 4
 
-#include <stdio.h>
 
 //4) Faça uma função que receba três notas de um aluno e uma letra como parâmetros. Se a letra for A
 (Aritmética), a função deve calcular e retornar a média aritmética das notas do aluno (p1+p2+p3)/3, e, se
@@ -141,7 +138,6 @@ int main() {
 
 exercicio 5
 
-#include <stdio.h>
 
 // 5. Faça uma função que receba três notas de um aluno e os pesos de cada uma das provas. A, a função deve
 calcular e retornar a média ponderada das notas do aluno.
@@ -181,7 +177,6 @@ int main() {
 
 exercicio 6
 
-#include <stdio.h>
 
 // 6. Faça uma função que leia valores N valores entrados pelo usuário e imprima o maior e o menor valor. A
 função deve receber como argumento o próprio N.
@@ -218,7 +213,6 @@ int main() {
 
 exercicio 7
 
-#include <stdio.h>
 
 //7. Faça uma função que receba três valores inteiros e retorne a somatória do quadrado de cada um deles.
 int somar(int a, int b, int c)
@@ -247,17 +241,17 @@ int main() {
 
 exercicio 8:
 dentro do nain.c:
-#include <stdio.h>
-#include <stdlib.h>
-#include "data.h"
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include "data.h"
 
 // 8. Faça uma função que receba por parâmetros 3 valores inteiros referentes ao dia, ao mês e ao ano. Retorne
-1 se for uma data válida e 0 se não formar uma data válida.
-int validarData(int dia, int mes, int ano);
-Lembre-se de verificar os anos bissextos. Regra:
-• São bissextos todos os anos múltiplos de 400, p.ex: 1600, 2000, 2400, 2800...
-• São bissextos todos os múltiplos de 4 e não múltiplos de 100, p.ex: 1996, 2004, 2008, 2012, 2016…
-• Não são bissextos todos os demais anos.
+//1 se for uma data válida e 0 se não formar uma data válida.
+//int validarData(int dia, int mes, int ano);
+//Lembre-se de verificar os anos bissextos. Regra:
+//• São bissextos todos os anos múltiplos de 400, p.ex: 1600, 2000, 2400, 2800...
+//• São bissextos todos os múltiplos de 4 e não múltiplos de 100, p.ex: 1996, 2004, 2008, 2012, 2016…
+//• Não são bissextos todos os demais anos.
 
 
 
@@ -280,9 +274,9 @@ int main() {
 }
 
 dentro do data.c
-#include <stdio.h>
-#include <stdlib.h>
-#include "data.h"
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include "data.h"
 int validarData(int dia,int mes,int ano){
     int teste1,teste2,teste3,jan1,fev2,mar3,abr4,mai5,jun6,jul7,ago8,set9,out10,nov11,dez12;
     teste1=ano%400;
